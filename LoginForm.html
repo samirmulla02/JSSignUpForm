@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>
+        Form 1
+    </title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <form id="jsform">
+        <div class="container">
+            <table>
+                <tr>
+                    <td>First Name: </td>
+                    <td> <input type="text" id="fname" class="field" /> <small></small></td>
+                </tr>
+                <tr>
+                    <td>Last Name: </td>
+                    <td> <input type="text" id="lname" class="field" /> <small></small> </td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td> <input type="text" id="email" class="field" /> <small></small> </td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" /> Male
+                        <input type="radio" name="gender" value="Female" /> Female
+                        <input type="radio" name="gender" value="Trans" /> Trans
+                        <small></small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DOB:</td>
+                    <td>
+                        <input type="date" id="dob">
+                        <small></small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td>
+                        <input type="text" id="mobile" class="field" /> <small></small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>User Id:</td>
+                    <td>
+                        <input type="text" id="userid" class="field" /> <small></small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="text" id="password" class="field" /> <small></small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td>
+                        <input type="password" id="cnfpassword" class="field" /> <small></small>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit" class="sbutton" id="sbutton" disabled> Submit </button> </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>
